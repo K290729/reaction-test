@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon"href="Kファビコン、サイトアイコン.png">
+  <link rel="stylesheet"href="visual.css">
+  <title>反応速度測定|視覚反応測定</title>
+</head>
+
+<body>
+<header class="header">
+  <h1>反応速度測定テスト</h1>
+  <nav>
+    <a href="index.html">ホーム</a>
+    <a href="#about"id="about-button">このサイトについて</a>
+  </nav>
+</header>
+<h1 class="title">反応速度測定テスト</h1>
+<h2 class="subtitle">あなたの反応速度を測定して、自己ベストを更新しよう！</h2>
+<footer class="footer">
+  <p class="aaa"><span class="skyblue">―</span>このテストについて<span class="skyblue">―</span></p>
+  <p class="footer-text">©2026 反応速度測定テスト All Rights Reserved.</p>
+  <div class="goal">
+    <p class="goal-text">目的</p>
+    <p>音や色の刺激に対する<br>あなたの反応速度を測定します。</p>
+  </div>
+  <div class="method">
+    <p class="method-text">実験方法</p>
+    <p>ランダムなタイミングで視覚・聴覚を刺激し、クリックまでの時間を測定します。</p>
+  </div>
+  <div class="record">
+    <p class="record-text">記録</p>
+    <p>測定結果は自動で記録され、<br>自己ベストと比較することができます。</p>
+  </div>
+  <div class="warning">
+    <p class="warning-text">注意事項</p>
+    <p>フライング(早すぎるクリック)をすると<br>測定が無効になります。</p>
+  </div>
+</footer>
+<div class="main-box">
+  <div class="count-options"id="count-options">
+    <p class="visual-text">視覚モード</p>
+    <p class="count">計測する回数を選択してください</p>
+    <div class="count-1">
+      <label class="count-box">
+        <input type="radio"name="count"value="1">
+        <span>1回</span>
+      </label>
+    </div>
+    <div class="count-3">
+      <label class="count-box">
+        <input type="radio"name="count"value="3">
+        <span>3回</span>
+      </label>
+    </div>
+    <div class="count-5">
+      <label class="count-box">
+        <input type="radio"name="count"value="5">
+        <span>5回</span>
+      </label>
+    </div>
+    <div class="count-10">
+      <label class="count-box">
+        <input type="radio"name="count"value="10">
+        <span>10回</span>
+      </label>
+    </div>  
+    <button class="start">計測開始</button>
+  </div>
+</div>
+<div id="count-message">回数を選択してください</div>
+<p id="circular-text">色が変わったらクリック！</p>
+<div id="result1">1回目:&nbsp;???ms</div>
+<div id="result2">2回目:&nbsp;???ms</div>
+<div id="result3">3回目:&nbsp;???ms</div>
+<div id="result4">4回目:&nbsp;???ms</div>
+<div id="result5">5回目:&nbsp;???ms</div>
+<div id="result6">6回目:&nbsp;???ms</div>
+<div id="result7">7回目:&nbsp;???ms</div>
+<div id="result8">8回目:&nbsp;???ms</div>
+<div id="result9">9回目:&nbsp;???ms</div>
+<div id="result10">10回目:&nbsp;???ms</div>
+<button id="circular"></button>
+<div id="average-result">平均:&nbsp;???ms</div>
+<button id="retry-button">もう一度測定</button>
+<button id="result-button">結果へ</button>
+<script src="visual.js"></script>
+</body>
+
+</html>

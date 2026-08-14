@@ -1,0 +1,258 @@
+body{
+  margin:0;
+  height:100vh;
+  background:linear-gradient(to bottom,#06152e,#164b7a,#2f78b7);
+  color:white;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  user-select:none;
+}
+
+.title{
+  position:absolute;
+  top:15%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:40px;
+}
+
+.subtitle{
+  position:absolute;
+  top:21%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:18px;
+  color:skyblue;
+}
+
+.header{
+  padding-left:30px;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:rgba(5,8,22,0.6);
+  backdrop-filter:blur(10px);
+  width:100%;
+}
+
+nav{
+  padding-right:60px;
+  font-size:20px;
+  display:flex;
+  gap:20px;
+}
+
+footer{
+  position:fixed;
+  bottom:0;
+  display:flex;
+  flex-direction:column;
+  background:rgba(5,8,22,0.6);
+  backdrop-filter;blur(10px);
+  width:100%;
+  height:200px;
+}
+
+.footer{
+  font-size:10px;
+}
+
+.footer-text{
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.goal{
+  position:absolute;
+  bottom:20%;
+  left:12%;
+  width:250px;
+  height:90px;
+  padding:10px;
+  border:1px solid skyblue;
+  border-radius:10px;
+  backdrop-filter:blur(10px);
+  font-size:13px;
+}
+
+.goal-text{
+  font-size:15px;
+}
+
+.method{
+  position:absolute;
+  bottom:20%;
+  left:31%;
+  width:250px;
+  height:90px;
+  padding:10px;
+  border:1px solid skyblue;
+  border-radius:10px;
+  backdrop-filter:blur(10px);
+  font-size:13px;
+}
+
+.method-text{
+  font-size:15px;
+}
+
+.record{
+  position:absolute;
+  bottom:20%;
+  right:32%;
+  width:250px;
+  height:90px;
+  padding:10px;
+  border:1px solid skyblue;
+  border-radius:10px;
+  backdrop-filter:blur(10px);
+  font-size:13px;
+}
+
+.record-text{
+  font-size:15px;
+}
+
+.warning{
+  position:absolute;
+  bottom:20%;
+  right:13%;
+  width:250px;
+  height:90px;
+  padding:10px;
+  border:1px solid skyblue;
+  border-radius:10px;
+  backdrop-filter:blur(10px);
+  font-size:13px;
+}
+
+.warning-text{
+  font-size:15px;
+}
+
+.main-box{
+  position:absolute;
+  top:44.3%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:550px;
+  height:230px;
+  padding:10px;
+  border:1px solid skyblue;
+  border-radius:10px;
+  background:rgba(5,8,22,0.5);
+  backdrop-filter:blur(10px);
+}
+
+.aaa{
+  position:absolute;
+  top:0;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:30px;
+}
+
+.skyblue{
+  color:skyblue;
+}
+
+#result-username{
+  position:absolute;
+  top:22%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:24px;
+}
+
+#result-result{
+  position:absolute;
+  top:5;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:30px;
+}
+
+#slowest-box{
+  position:absolute;
+  top:58%;
+  left:20%;
+  transform:translate(-50%,-50%);
+  width:120px;
+  height:70px;
+  background:#7a1d1d;
+  border:3px solid #e72c2c;
+  border-radius:10px;
+  text-align:center;
+  font-size:10px;
+}
+
+#average-box{
+  position:absolute;
+  top:58%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:120px;
+  height:70px;
+  background:#004551;
+  border:3px solid #20c997;
+  border-radius:10px;
+  text-align:center;
+  font-size:10px;
+}
+
+#fastest-box{
+  position:absolute;
+  top:58%;
+  left:80%;
+  transform:translate(-50%,-50%);
+  width:120px;
+  height:70px;
+  background:#12365c;
+  border:3px solid #2da8e8;
+  border-radius:10px;
+  text-align:center;
+  font-size:10px;
+}
+
+#slowest-result{
+  font-size:25px;
+  position:absolute;
+  top:14%;
+  left:17%;
+  transform:translate(-50%,-50%,);
+}
+
+#average-result{
+  font-size:25px;
+  position:absolute;
+  top:14%;
+  left:17%;
+  transform:translate(-50%,-50%,);
+}
+
+#fastest-result{
+  font-size:25px;
+  position:absolute;
+  top:14%;
+  left:17%;
+  transform:translate(-50%,-50%,);
+}
+
+#restart-button{
+  position:absolute;
+  top:57%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:100px;
+  height:50px;
+  background:#12365c;
+  border:3px solid #2da8e8;
+  border-radius:10px;
+  text-align:center;
+  color:white;
+}

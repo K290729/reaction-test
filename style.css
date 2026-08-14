@@ -1,0 +1,293 @@
+body{
+  margin:0;
+  height:100vh;
+  background:linear-gradient(to bottom,#06152e,#164b7a,#2f78b7);
+  color:white;
+  overflow:hidden;
+  user-select:none;
+}
+
+.title{
+  position:absolute;
+  top:15%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:40px;
+}
+
+.subtitle{
+  position:absolute;
+  top:21%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:18px;
+  color:skyblue;
+}
+
+.header{
+  padding-left:30px;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:rgba(5,8,22,0.6);
+  backdrop-filter:blur(10px);
+  width:100%;
+}
+
+nav{
+  padding-right:60px;
+  font-size:20px;
+  display:flex;
+  gap:20px;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  display:flex;
+  flex-direction:column;
+  background:rgba(5,8,22,0.6);
+  backdrop-filter;blur(10px);
+  width:100%;
+  height:200px;
+}
+
+.footer{
+  font-size:10px;
+}
+
+.footer-text{
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.goal{
+  position:absolute;
+  bottom:20%;
+  left:12%;
+  width:250px;
+  height:90px;
+  padding:10px;
+  border:1px solid skyblue;
+  border-radius:10px;
+  backdrop-filter:blur(10px);
+  font-size:13px;
+}
+
+.goal-text{
+  font-size:15px;
+}
+
+.method{
+  position:absolute;
+  bottom:20%;
+  left:31%;
+  width:250px;
+  height:90px;
+  padding:10px;
+  border:1px solid skyblue;
+  border-radius:10px;
+  backdrop-filter:blur(10px);
+  font-size:13px;
+}
+
+.method-text{
+  font-size:15px;
+}
+
+.record{
+  position:absolute;
+  bottom:20%;
+  right:32%;
+  width:250px;
+  height:90px;
+  padding:10px;
+  border:1px solid skyblue;
+  border-radius:10px;
+  backdrop-filter:blur(10px);
+  font-size:13px;
+}
+
+.record-text{
+  font-size:15px;
+}
+
+.warning{
+  position:absolute;
+  bottom:20%;
+  right:13%;
+  width:250px;
+  height:90px;
+  padding:10px;
+  border:1px solid skyblue;
+  border-radius:10px;
+  backdrop-filter:blur(10px);
+  font-size:13px;
+}
+
+.warning-text{
+  font-size:15px;
+}
+
+.main-box{
+  position:absolute;
+  top:47%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:550px;
+  height:270px;
+  padding:10px;
+  border:1px solid skyblue;
+  border-radius:10px;
+  background:rgba(5,8,22,0.5);
+  backdrop-filter:blur(10px);
+}
+
+.aaa{
+  position:absolute;
+  top:0;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:30px;
+}
+
+.skyblue{
+  color:skyblue;
+}
+
+.name{
+  position:absolute;
+  top:2%;
+  left:50%;
+  font-size:13px;
+  transform:translate(-50%,-50%);
+}
+
+.name-text{
+  position:absolute;
+  top:16%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:20px;
+  width:500px;
+  background:rgba(5,8,1,0);
+  color:white;
+  border:1px solid skyblue;
+}
+
+.mode{
+  position:absolute;
+  top:26%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:13px;
+}
+
+.mode-select{
+  position:absolute;
+  top:55%;
+  left:75%;
+  transform:translate(-50%,-50%);
+  width:220px;
+  height:80px;
+  padding:10px;
+  border:3px solid #2da8e8;
+  border-radius:10px;
+  background:#12365c;
+  backdrop-filter:blur(10px);
+  text-align:center;
+}
+
+.mode-select2{
+  position:absolute;
+  top:55%;
+  left:25%;
+  transform:translate(-50%,-50%);
+  width:220px;
+  height:80px;
+  padding:10px;
+  border:3px solid #2da8e8;
+  border-radius:10px;
+  background:#12365c;
+  backdrop-filter:blur(10px);
+  text-align:center;
+}
+
+.mode-select input{
+  display:none;
+}
+
+.mode-select2 input{
+  display:none;
+}
+
+.color-mode{
+  font-size:25px;
+}
+
+.color-mode-text{
+  font-size:12px;
+}
+
+.move-mode{
+  font-size:25px;
+}
+
+.move-mode-text{
+  font-size:12px;
+}
+
+.mode-select:has(input:checked){
+  background:#004551;
+  border-color:#20c997;
+}
+
+.mode-select2:has(input:checked){
+  background:#004551;
+  border-color:#20c997;
+}
+
+.start{
+  position:absolute;
+  top:85%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:#1e69ff;
+  color:white;
+  border:1px solid 1e72ff;
+  border-radius:40px;
+  backdrop-filter:blur(10px);
+  width:280px;
+  height:50px;
+  font-size:25px;
+}
+
+#mode-message{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:white;
+  font-size:60px;
+  font-weight:bold;
+  opacity:0;
+  pointer-events:none;
+}
+
+#mode-message.show{
+  animation:fadeOut 1.5s ease forwards;
+}
+
+@keyframes fadeOut{
+  0%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+  }
+}

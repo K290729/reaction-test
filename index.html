@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"content="反応速度テスト">
+  <meta name="robots"content="index,follow">
+  <link rel="icon"href="Kファビコン、サイトアイコン.png">
+  <link rel="stylesheet"href="style.css">
+  <title>反応速度測定テスト|視覚・聴覚</title>
+</head>
+
+
+<body>
+<header class="header">
+  <h1>反応速度測定テスト</h1>
+  <nav>
+    <a href="index.html">ホーム</a>
+    <a href="#about"id="about-button">このサイトについて</a>
+  </nav>
+</header>
+<h1 class="title">反応速度測定テスト</h1>
+<h2 class="subtitle">あなたの反応速度を測定して、自己ベストを更新しよう！</h2>
+<footer class="footer">
+  <p class="aaa"><span class="skyblue">―</span>このテストについて<span class="skyblue">―</span></p>
+  <p class="footer-text">©2026 反応速度測定テスト All Rights Reserved.</p>
+  <div class="goal">
+    <p class="goal-text">目的</p>
+    <p>音や色の刺激に対する<br>あなたの反応速度を測定します。</p>
+  </div>
+  <div class="method">
+    <p class="method-text">実験方法</p>
+    <p>ランダムなタイミングで視覚・聴覚を刺激し、クリックまでの時間を測定します。</p>
+  </div>
+  <div class="record">
+    <p class="record-text">記録</p>
+    <p>測定結果は自動で記録され、<br>自己ベストと比較することができます。</p>
+  </div>
+  <div class="warning">
+    <p class="warning-text">注意事項</p>
+    <p>フライング(早すぎるクリック)をすると<br>測定が無効になります。</p>
+  </div>
+</footer>
+<div class="main-box">
+  <p class="name">名前を入力してください</p>
+  <input type="text"id="username"name="username"placeholder="例)ユーザー名"class="name-text">
+  <p class="mode">モードを選択してください</p>
+  <div class="mode-select">
+    <label class="mode-box">
+      <input type="radio"name="mode"value="audio">
+      <span class="move-mode">音モード</span><br>
+      <span class="move-mode-text">音が鳴ったらクリック！</span>
+    </label>
+  </div>
+  <div class="mode-select2">
+    <label class="mode-box">
+      <input type="radio"name="mode"value="visual">
+      <span class="color-mode">色モード</span><br>
+      <span class="color-mode-text">色が変わったらクリック！</span>
+    </label>
+  </div>
+  <button class="start">▶スタート</button>
+</div>
+<div id="mode-message">モードを選択してください</div>
+<script src="script.js"></script>
+</body>
+
+</html>

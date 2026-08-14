@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon"href="Kファビコン、サイトアイコン.png">
+  <link rel="stylesheet"href="result.css">
+  <title>反応速度測定|結果画面</title>
+</head>
+
+<body>
+<header class="header">
+  <h1>反応速度測定テスト</h1>
+  <nav>
+    <a href="index.html">ホーム</a>
+    <a href="#about"id="about-button">このサイトについて</a>
+  </nav>
+</header>
+<h1 class="title">反応速度測定テスト</h1>
+<h2 class="subtitle">あなたの反応速度を測定して、自己ベストを更新しよう！</h2>
+<footer class="footer">
+  <p class="aaa"><span class="skyblue">―</span>このテストについて<span class="skyblue">―</span></p>
+  <p class="footer-text">©2026 反応速度測定テスト All Rights Reserved.</p>
+  <div class="goal">
+    <p class="goal-text">目的</p>
+    <p>音や色の刺激に対する<br>あなたの反応速度を測定します。</p>
+  </div>
+  <div class="method">
+    <p class="method-text">実験方法</p>
+    <p>ランダムなタイミングで視覚・聴覚を刺激し、クリックまでの時間を測定します。</p>
+  </div>
+  <div class="record">
+    <p class="record-text">記録</p>
+    <p>測定結果は自動で記録され、<br>自己ベストと比較することができます。</p>
+  </div>
+  <div class="warning">
+    <p class="warning-text">注意事項</p>
+    <p>フライング(早すぎるクリック)をすると<br>測定が無効になります。</p>
+  </div>
+</footer>
+<div class="main-box">
+  <p id="result-result">測定結果</p>
+  <p id="result-username"></p>
+  <div id="slowest-box">
+    <h2>最遅</h2>
+    <p id="slowest-result">---</p>
+  </div>
+  <div id="average-box">
+    <h2>平均</h2>
+    <p id="average-result">---</p>
+  </div>
+  <div id="fastest-box">
+    <h2>最速</h2>
+    <p id="fastest-result">---</p>
+  </div>
+</div>
+<button id="restart-button">もう一度</button>
+<script src="result.js"></script>
